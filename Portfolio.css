@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Lobster&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*----------------------------Navbar-----------------------*/
+
+header {
+  background-color: black;
+  height: 95vh;
+}
+
+nav {
+  display: flex;
+  height: 100px;
+  color: white;
+}
+
+.nav-left {
+  display: flex;
+  margin-left: 60px;
+}
+
+.nav-left img,
+h1 {
+  position: relative;
+  top: 38px;
+  margin-left: 10px;
+}
+
+.nav-left span {
+  color: rgb(255, 166, 0);
+}
+
+.nav-left a {
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  top: 43px;
+}
+
+.nav-left a:hover {
+  color: rgb(255, 166, 0);
+  border-bottom: 1px solid rgb(255, 166, 0);
+}
+
+.nav-left ul {
+  margin-left: 80px;
+  word-spacing: 20px;
+}
+
+.nav-right button {
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid;
+  width: 80px;
+  height: 30px;
+  font-size: 16px;
+  position: relative;
+  top: 40px;
+  margin-left: 500px;
+}
+
+.nav-right button:hover {
+  transform: scale(1.2);
+  letter-spacing: 2px;
+}
+
+/*----------------------------content-header-----------------------*/
+
+.content {
+  display: flex;
+  padding-top: 80px;
+}
+
+/*--------------------------content-left-------------------------*/
+.content-left {
+  background-color: rgb(255, 166, 0);
+  width: 80vh;
+  height: 60vh;
+  position: relative;
+  line-height: 60px;
+  margin-left: 70px;
+}
+
+.content-left h1 {
+  color: white;
+  background-color: transparent;
+  margin-left: 269px;
+  width: 450px;
+  margin-top: 30px;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  font-size: 35px;
+  font-family: "Berkshire Swash", cursive;
+}
+
+.content-left h2 {
+  color: white;
+  background-color: transparent;
+  margin-left: 400px;
+  width: 350px;
+  word-spacing: 8px;
+  font-size: 28px;
+  font-family: "Berkshire Swash", cursive;
+}
+
+.content-left span {
+  color: rgb(255, 166, 0);
+}
+
+.content-left .lign1 {
+  background-color: white;
+  border: white;
+  width: 270px;
+  height: 5px;
+  margin-left: 233px;
+  margin-top: 20px;
+}
+
+/*--------------------------content-right-------------------------*/
+
+.content-right .lign2 {
+  background-color: rgb(255, 166, 0);
+  border: rgb(255, 166, 0);
+  width: 233px;
+  height: 5px;
+  margin-top: -99px;
+}
+
+.content-right img {
+  margin-top: 20px;
+  margin-left: 320px;
+  border: 2px solid rgb(255, 166, 0);
+}
+
+.content button {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgb(255, 166, 0);
+  border: 1px solid;
+  margin-top: 25px;
+  margin-left: 370px;
+  width: 150px;
+  height: 30px;
+}
+
+.content button:hover {
+  transform: scale(1.2);
+  letter-spacing: 2px;
+  background-color: rgb(255, 166, 0);
+}
+
+.competence {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
+}
+
+.competence .part1 {
+  display: flex;
+  margin: auto;
+  border: 2px solid black;
+  height: 100px;
+  width: 270px;
+}
+
+.competence .part1 img,
+h3 {
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+/*--------------------------section about-me-------------------------*/
+#padding {
+  padding-bottom: 20vh;
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.about-me .left .border {
+  border: 5px solid rgb(255, 166, 0);
+  width: 220px;
+  height: 240px;
+}
+
+.about-me .left {
+  display: flex;
+}
+
+.about-me .left img {
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 33px;
+  border: 2px solid black;
+}
+
+.about-me .right {
+  line-height: 40px;
+  margin-left: 20px;
+}
+
+.title1 {
+  font-family: "Berkshire Swash", cursive;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.lign3 {
+  margin: auto;
+  width: 250px;
+  height: 3px;
+  border: rgb(255, 166, 0);
+  background-color: rgb(255, 166, 0);
+  margin-top: 20px;
+}
+
+.title2 {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Berkshire Swash", cursive;
+}
+
+.about-me .social-btn {
+  font-size: 35px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-me .social-btn .fab:hover {
+  color: rgb(255, 166, 0);
+  transform: scale(1.2);
+}
+
+/*--------------------------section skills-------------------------*/
+
+.skills {
+  display: flex;
+  margin-top: 100px;
+  line-height: 30px;
+}
+
+.skills .skills-left {
+  margin-left: 70px;
+}
+
+.skills .skills-left progress {
+  width: 400px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+::-moz-progress-bar {
+  background-color: rgb(255, 166, 0);
+}
+
+.skills .skills-right {
+  margin-left: 50px;
+}
+
+.skills .part1 {
+  border: 2px solid black;
+  width: 250px;
+  height: 180px;
+  text-align: center;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+#flex1 {
+  display: flex;
+}
+.skills .skills-right img {
+  margin-top: 10px;
+}
+
+/*--------------------------section contact-------------------------*/
+
+.contact .btn-contact {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 90px;
+  text-align: center;
+}
+
+.contact .fas {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
